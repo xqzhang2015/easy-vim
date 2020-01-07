@@ -1,3 +1,20 @@
+
+<!-- vim-markdown-toc GFM -->
+
+* [easy-vim](#easy-vim)
+* [vim](#vim)
+		* [vim download](#vim-download)
+		* [vim compile](#vim-compile)
+		* [vim runtime](#vim-runtime)
+* [plugins](#plugins)
+		* [Vundle](#vundle)
+		* [YouCompleMe](#youcompleme)
+		* [YCM-Generator](#ycm-generator)
+		* [tagbar](#tagbar)
+		* [vim-markdown-toc](#vim-markdown-toc)
+
+<!-- vim-markdown-toc -->
+
 # easy-vim
 
 ```sh
@@ -88,4 +105,16 @@ let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 * [ctags-compatible tag generator for Go](https://github.com/jstemmer/gotags)<br/>
   * ctags doesn't support golang
   * install: `go get -u github.com/jstemmer/gotags`
+
+### vim-markdown-toc
+
+* [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
+
+* usage: Generate table of contents in GFM link style
+  * This command is suitable for Markdown files in GitHub repositories, like README.md
+  * existing table of contents will auto update on save by default
+
+```sh
+:GenTocGFM
+```
 
